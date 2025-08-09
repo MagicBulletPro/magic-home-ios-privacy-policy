@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Magic Bullet - Support</title>
+  <meta name="description" content="Support page for Magic Bullet app including FAQs, troubleshooting, and contact information." />
+  <style>
+    :root {
+      --bg: #f9fafb;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #475569;
+      --accent: #0ea5a4;
+      --maxw: 900px;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    html,body { height:100%; margin:0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      padding: 32px 16px;
+      display: flex;
+      justify-content: center;
+    }
+    .container { width: 100%; max-width: var(--maxw); }
+    .card {
+      background: var(--card);
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(15,23,42,0.08);
+      padding: 28px;
+    }
+    h1,h2,h3 { margin-top: 0; }
+    h1 { font-size: 1.6rem; }
+    h2 { font-size: 1.2rem; margin-top: 1.2em; }
+    h3 { font-size: 1.05rem; margin-top: 1em; }
+    ul { margin: 0.4em 0 0.8em 1.2em; }
+    code { background: #e2e8f0; padding: 2px 4px; border-radius: 4px; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .muted { color: var(--muted); }
+    @media (max-width: 520px) { .card { padding: 18px; } }
+  </style>
+</head>
+<body>
+  <main class="container" role="main">
+    <article class="card">
+      <h1>Magic Bullet - Support</h1>
+      <p>Welcome to Magic Bullet support! Here you'll find answers to common questions and ways to get help.</p>
+
+      <h2>What is Magic Bullet?</h2>
+      <p>Magic Bullet is a mobile application that allows you to control and monitor compatible devices on your local network. The app connects to devices via WebSocket communication for real-time interaction.</p>
+
+      <h2>Getting Started</h2>
+      <h3>Initial Setup</h3>
+      <ol>
+        <li><strong>Download and install</strong> Magic Bullet from the App Store</li>
+        <li><strong>Ensure your device and mobile phone are on the same Wi-Fi network</strong></li>
+        <li><strong>Open the app</strong> and navigate to the connection settings</li>
+        <li><strong>Enter your device's IP address</strong> when prompted</li>
+        <li><strong>Tap Connect</strong> to establish the connection</li>
+      </ol>
+
+      <h3>Finding Your Device's IP Address</h3>
+      <ul>
+        <li>Check your device's network settings or configuration page</li>
+        <li>Look for "Network Information" or "Wi-Fi Settings"</li>
+        <li>The IP address typically looks like: <code>192.168.1.100</code> or <code>10.0.0.50</code></li>
+      </ul>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Connection Issues</h3>
+      <p><strong>Q: The app says "Connection failed" or shows a timeout error</strong></p>
+      <ul>
+        <li>Verify both devices are on the same Wi-Fi network</li>
+        <li>Double-check the IP address you entered</li>
+        <li>Ensure your device is powered on and network-enabled</li>
+        <li>Try restarting both your mobile device and the target device</li>
+      </ul>
+
+      <p><strong>Q: The connection keeps dropping</strong></p>
+      <ul>
+        <li>Check your Wi-Fi signal strength</li>
+        <li>Ensure your router isn't blocking local network communication</li>
+        <li>Try moving closer to your Wi-Fi router</li>
+      </ul>
+
+      <p><strong>Q: I can't find my device's IP address</strong></p>
+      <ul>
+        <li>Check your router's admin panel for connected devices</li>
+        <li>Look for device documentation or settings menu</li>
+        <li>Try using network scanning apps to discover local devices</li>
+      </ul>
+
+      <h3>App Features</h3>
+      <p><strong>Q: How do I reset my connection settings?</strong></p>
+      <ul>
+        <li>Go to app settings and tap "Reset" or "Clear Data"</li>
+        <li>You can also uninstall and reinstall the app</li>
+      </ul>
+
+      <p><strong>Q: The app interface looks different than expected</strong></p>
+      <ul>
+        <li>Make sure you have the latest version from the App Store</li>
+        <li>Some features may vary based on your device capabilities</li>
+      </ul>
+
+      <h3>Technical Issues</h3>
+      <p><strong>Q: The app crashes or freezes</strong></p>
+      <ul>
+        <li>Force close the app and reopen it</li>
+        <li>Restart your mobile device</li>
+        <li>Ensure you have sufficient storage space</li>
+        <li>Update to the latest app version</li>
+      </ul>
+
+      <p><strong>Q: I'm seeing error messages</strong></p>
+      <ul>
+        <li>Most errors are related to network connectivity</li>
+        <li>Try disconnecting and reconnecting</li>
+        <li>Check if your target device is responding</li>
+      </ul>
+
+      <h2>Troubleshooting Steps</h2>
+      <ol>
+        <li><strong>Check network connection</strong>
+          <ul>
+            <li>Ensure Wi-Fi is enabled and connected</li>
+            <li>Test internet connectivity</li>
+          </ul>
+        </li>
+        <li><strong>Verify device compatibility</strong>
+          <ul>
+            <li>Confirm your device supports the required protocols</li>
+            <li>Check that WebSocket communication is enabled</li>
+          </ul>
+        </li>
+        <li><strong>Restart everything</strong>
+          <ul>
+            <li>Close and reopen the Magic Bullet app</li>
+            <li>Restart your mobile device</li>
+            <li>Power cycle your target device</li>
+          </ul>
+        </li>
+        <li><strong>Reset app data</strong>
+          <ul>
+            <li>Clear the app's stored data</li>
+            <li>Re-enter your connection settings</li>
+          </ul>
+        </li>
+      </ol>
+
+      <h2>System Requirements</h2>
+      <ul>
+        <li><strong>iOS</strong>: iOS 12.0 or later</li>
+        <li><strong>Network</strong>: Wi-Fi connection required</li>
+        <li><strong>Device</strong>: Compatible devices with WebSocket support</li>
+      </ul>
+
+      <h2>Privacy &amp; Data</h2>
+      <p>Magic Bullet respects your privacy:</p>
+      <ul>
+        <li>No personal data is collected or transmitted to external servers</li>
+        <li>All communication stays within your local network</li>
+        <li>Connection settings are stored only on your device</li>
+      </ul>
+
+      <h2>Contact Support</h2>
+      <p>If you're still experiencing issues after trying the troubleshooting steps:</p>
+      <p><strong>Email</strong>: <a href="mailto:magicbulletsoft@gmail.com">magicbulletsoft@gmail.com</a></p>
+      <p>When contacting support, please include:</p>
+      <ul>
+        <li>Your device model and iOS version</li>
+        <li>Magic Bullet app version</li>
+        <li>Description of the issue</li>
+        <li>Steps you've already tried</li>
+      </ul>
+      <p><strong>Response Time</strong>: I typically respond within 24-48 hours.</p>
+
+      <h2>Feature Requests</h2>
+      <p>Have an idea for improving Magic Bullet? I'd love to hear from you! Send your suggestions to the support email above.</p>
+
+      <h2>App Updates</h2>
+      <p>Magic Bullet is regularly updated with improvements and bug fixes. Make sure to keep your app updated through the App Store for the best experience.</p>
+    </article>
+  </main>
+</body>
+</html>
